@@ -51,22 +51,11 @@ export default function Home() {
                             asChild
                         >
                             <Link
-                                href={'/vishal-kadam-resume.pdf'}
+                                href={'/my-resume.pdf'}
                                 target='_blank'
+                                download={true}
                             >
-                                VFX Resume
-                            </Link>
-                        </Button>
-                        <Button
-                            variant={'outline'}
-                            size={'lg'}
-                            asChild
-                        >
-                            <Link
-                                href={'/vishal-kadam-resume-tech.pdf'}
-                                target='_blank'
-                            >
-                                Tech Resume
+                                Download Resume
                             </Link>
                         </Button>
                     </div>
